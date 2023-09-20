@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Sitio web</h1>
+	<ul>
+		<li><a href="index.html">Incio</a></li>
+		<li><a href="index2.html">Contacto</a></li>
+		<li><a href="index3.html">Sobre mi</a></li>
+	</ul>
+	<hr>
+
+
+	<h3>Listas</h3>
+	<ul>Lista desordenada
+		<li>Leche</li>
+		<li>Jamon</li>
+		<li>Cafe</li>
+	</ul>
+	<ol>Lista ordenada
+		<li>Messi</li>
+		<li>Mbappe</li>
+		<li>Modrick</li>
+	</ol>
+	<h3>Tablas</h3>
+	<table border="1">
+<!--esta propiedad de BORDER nos ayuda a colocar un borde sobre nuestros elemntos dentro de la tabla-->
+		<tr>
+			<th>Nombre</th>
+			<th>Pias</th>
+			<th>Ciudad</th>
+		</tr>
+		<tr>
+			<td>Angel</td>
+			<td>Mexico</td>
+			<td>Puebla</td>
+		</tr>
+		<tr>
+			<td>Japheth</td>
+			<td  colspan="2">Canada</td>
+<!--En este caso COLSPAN significs expandir columna en este caso con el valor '2' para que ocupe dos lugares  -->
+		</tr>
+	</table>
+	<h3>Formularios</h3>
+	<form>
+		<p>
+			<label for="texto">Texto<input type="text" name="texto" placeholder="Entrada de texto"></label>
+		</p>
+		<p>
+			<label for="contraseña">Contraseña<input type="password" name="contraseña" placeholder="Contraseña"></label>
+		</p>
+		<p>
+			<label for="numeros">Numeros<input type="number" name="numero" placeholder="solo numeros"></label>
+		</p>
+		<p>
+			<label for="correos">Correo<input type="email" name="correo" placeholder="solo correo"></label>
+		</p>
+		<p>
+			<label for="descripcion">Descripcion<textarea name="descripcoin" placeholder="Descripcion"></textarea></label>
+		</p>
+		<p>
+			Opciones de Radio <br>
+			<input type="radio" name="genero" value="hombre">Hombre <br>
+			<input type="radio" name="genero" value="mujero">Mujer <br>
+			<input type="radio" name="genero" value="otro">Otro <br>
+		</p>
+		<p>
+			CheckBox <br>
+			<input type="checkbox" name="equipo" value="America">America <br>
+			<input type="checkbox" name="equipo" value="Barcelona">Barcelona <br>
+			<input type="checkbox" name="equipo" value="Manchester City">Manchester City <br>
+			<input type="checkbox" name="equipo" value="Real Madrid">Real Madrid <br>
+			<input type="checkbox" name="equipo" value="Milan">Milan <br>
+		</p>
+		<p>
+			Selecciona una de estas opciones
+			<select name="generos">
+				<option value="Hombre">Hombre</option>
+				<option value="Mujer">Mujer</option>
+				<option value="Animal">Animal</option>
+			</select>
+		</p>
+		<input type="submit">
+		
+		
+		
+		
+		
+		
+		
+		
+
+	</form>
+</body>
+</html>
